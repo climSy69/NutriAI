@@ -38,6 +38,7 @@ dependencies {
     implementation libs.retrofit
     implementation libs.retrofit.gson
     implementation libs.okhttp.logging
+    implementation libs.generativeai
 
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit

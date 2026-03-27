@@ -29,8 +29,10 @@ public class MainActivity extends AppCompatActivity {
         btnViewSummary.setOnClickListener(v -> 
             Toast.makeText(MainActivity.this, "Daily Summary Clicked", Toast.LENGTH_SHORT).show());
 
-        btnAIAssistant.setOnClickListener(v -> 
-            Toast.makeText(MainActivity.this, "AI Assistant Clicked", Toast.LENGTH_SHORT).show());
+        btnAIAssistant.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, AIAssistantActivity.class);
+            startActivity(intent);
+        });
 
         btnProfile.setOnClickListener(v -> 
             Toast.makeText(MainActivity.this, "Profile Clicked", Toast.LENGTH_SHORT).show());

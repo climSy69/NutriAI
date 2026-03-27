@@ -37,6 +37,11 @@
             android:label="Add Meal"
             android:exported="false" />
 
+        <activity
+            android:name=".AIAssistantActivity"
+            android:label="AI Wellness Assistant"
+            android:exported="false" />
+
     </application>
 
 </manifest>
