@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F8F9FA">
+
+    <!-- App Title -->
+    <TextView
+        android:id="@+id/tvAppTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NutriAI"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:textColor="#2E7D32"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Dashboard Buttons -->
+    <Button
+        android:id="@+id/btnAddMeal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Add Meal"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#4CAF50" />
+
+    <Button
+        android:id="@+id/btnViewSummary"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="View Daily Summary"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#2196F3" />
+
+    <Button
+        android:id="@+id/btnAIAssistant"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="AI Assistant"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#9C27B0" />
+
+    <Button
+        android:id="@+id/btnProfile"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Profile"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#FF9800" />
+
+</LinearLayout>
